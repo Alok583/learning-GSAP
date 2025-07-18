@@ -31,3 +31,16 @@ gsap.from("#page3 #box",{
         
     }
 })
+
+gsap.to("#page3 h2",{
+    transform:"translateX(-150%)",
+    scrollTrigger{
+        trigger:"#page3",
+        scroll:"body",
+        start:"top 0%",
+        end:"top  -100%",
+        scrub:2,
+        pin:true
+
+    }
+})

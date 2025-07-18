@@ -38,3 +38,14 @@ html, body {
     width: 200px;
     background-color: rgb(70, 113, 5);
 }
+
+body{
+    overflow-x: hidden;
+}
+
+
+#page3 h2{
+    font-size: 40vw;
+    text-transform: uppercase;
+
+}
