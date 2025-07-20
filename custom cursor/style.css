@@ -1,4 +1,29 @@
-*{
-    height: 1200px;
-    width: 1200px;
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html, body {
+  font-family: Arial, sans-serif;
+  font-size: 10px;
+   height: 100%;
+   width: 100%;
+  line-height: 1.5;
+  color: #555;
+  background: #111;
+}
+
+#main
+{
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+#cursor{
+    height: 10px;
+    width: 10px;
+    color: #989;
+    background-color: #6d09ba;
+    border-radius: 40%;
+    position: fixed;
 }
